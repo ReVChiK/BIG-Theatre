@@ -1,0 +1,1 @@
+function Slider(){let e=0,t=document.querySelector(".lower-poster");document.querySelector(".button-left").onclick=()=>{0!=e&&(t.style.transform="translate(-330px, 20px)",t.style.display="block",e--)},document.querySelector(".button-right").onclick=()=>{0==e&&(t.style.transform="none",t.style.display="none",e++)}}Slider();
